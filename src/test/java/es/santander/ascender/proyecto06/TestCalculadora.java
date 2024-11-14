@@ -14,8 +14,7 @@ public class TestCalculadora {
         int valor = calc.multiplicar(2);
         assertEquals(20, valor);
 
-        calc.reset(valor);
-        
+        calc.reset(valor);      
    }
         
            

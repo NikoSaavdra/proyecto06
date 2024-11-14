@@ -18,7 +18,7 @@ public class Calculadora {
     }
   
     public int restar(int numeroTres){
-        resultado = getResultado() + numeroTres;  
+        resultado = getResultado() - numeroTres;  
         return resultado;
     }
  
