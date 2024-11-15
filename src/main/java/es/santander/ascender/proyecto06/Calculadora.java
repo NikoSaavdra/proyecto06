@@ -2,7 +2,7 @@ package es.santander.ascender.proyecto06;
 
 public class Calculadora {
 
-    private int resultado = 0;  
+    private int resultado = 0; 
 
     public void sumar(int numeroUno, int numeroDos){
         resultado = numeroUno + numeroDos;
@@ -49,7 +49,8 @@ public class Calculadora {
     }
 
     public int getResultado(){
-        return resultado;  
+    
+        return this.resultado;  
     }
  
     public void reset(int resultado){
